@@ -31,7 +31,7 @@ export default component$(() => {
   return (
     <div>
       <Header />
-      <main class="flex h-screen bg-white pt-20 dark:bg-slate-900">
+      <main class="h-screen bg-white pt-20 dark:bg-slate-900">
         <Slot />
       </main>
       <Footer />
