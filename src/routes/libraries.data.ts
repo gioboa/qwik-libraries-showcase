@@ -5,5 +5,6 @@ export const librariesData = [
     name: "Qwik UI",
     description:
       "The world's fastest loading UI components automatically optimized for you.",
+    href: "https://qwikui.com/",
   },
 ];
