@@ -8,7 +8,7 @@ export const Header = () => {
       class={`fixed top-0 z-10 h-20 w-full border-b-[2px] border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-900`}
     >
       <div class="grid h-full grid-cols-12 px-6">
-        <div class="col-span-4 flex items-center">
+        <div class="col-span-2 flex items-center">
           <a
             href="https://qwik.builder.io"
             title="Qwik logo"
@@ -18,15 +18,15 @@ export const Header = () => {
             <QwikIcon />
           </a>
         </div>
-        <div class="col-span-4 flex items-center justify-center pt-2">
+        <div class="col-span-8 flex items-center justify-center pt-2">
           <a
             href="/"
-            class="ml-2 text-2xl font-bold text-black dark:text-white"
+            class="ml-2 text-lg font-bold text-black dark:text-white sm:text-3xl"
           >
             Qwik libraries showcase
           </a>
         </div>
-        <div class="col-span-4 flex items-center justify-end">
+        <div class="col-span-2 flex items-center justify-end">
           <a
             target="_blank"
             href="https://github.com/gioboa/qwik-libraries-showcase"

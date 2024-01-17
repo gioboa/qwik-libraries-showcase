@@ -11,10 +11,10 @@ export default component$(() => {
   const libraries = useLibraries();
   return (
     <>
-      <h1 class="mt-6 w-full text-center text-[46px] font-bold tracking-tight text-gray-900 dark:text-white">
+      <h1 class="mt-10 w-full text-center text-[32px] font-bold tracking-tight text-gray-900 dark:text-white">
         Libraries
       </h1>
-      <div class="flex flex-wrap gap-3 p-10 text-black dark:text-white">
+      <div class="flex flex-wrap justify-evenly gap-3 p-10 text-black dark:text-white">
         {libraries.value.map((lib, key) => (
           <div
             key={key}
@@ -33,7 +33,7 @@ export default component$(() => {
                 />
               </div>
               <div class="flex flex-col justify-between p-4 leading-normal">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                <h5 class="mb-2 text-lg font-bold tracking-tight text-gray-900 dark:text-white">
                   {lib.name}
                 </h5>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
